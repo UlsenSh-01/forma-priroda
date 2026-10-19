@@ -186,3 +186,15 @@ p { line-height: 1.6; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+.contact-actions {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.contact-placeholder a[href^="tel:"],
+.contact-placeholder a[href^="mailto:"] {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

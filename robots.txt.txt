@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://ulsensh-01.github.io/forma-priroda/sitemap.xml
